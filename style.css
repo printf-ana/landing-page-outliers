@@ -1,0 +1,181 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+nav { 
+    background-color: #3AB4F9;
+}
+
+nav .main-title {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+nav a span {
+    color: white;
+}
+
+
+nav a span:hover {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+main {
+    padding-top: 60px;
+    width: 100%;
+}
+
+.first-section {
+    height: 100%;
+}
+
+.img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.opacidade {
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.texto {
+    z-index: 3;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    font-size: 1rem;
+}
+
+.entender {
+    color: #3AB4F9;
+}
+
+.main-button {
+    background-color: #3AB4F9;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    transition: 1s all;
+}
+
+.main-titles {
+    text-align: center;
+    padding: 50px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.second-section {
+    width: 100%;
+    padding-top: 100px;
+    background: linear-gradient(white, rgba(40, 198, 248, 0.8));
+}
+
+.style-card {
+    border: none;
+    text-align: center;
+    transition: 0.8s all;
+    background-color: transparent;
+}
+
+.style-card:hover {
+    background-color: rgba(160, 50, 240, 0.2);
+}
+
+.style-card:hover h5 {
+    font-size: 34px;
+}
+
+.card-header {
+    background-color:transparent;
+    border: none;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.card-img {
+    color: white;
+}
+
+.card-text {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.third-section {
+    background: linear-gradient(rgba(40, 198, 248, 0.8),  white, #A032F0);  
+}
+
+.third-img {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(50% at 50% 50%);
+    opacity: 0.8;
+    margin-bottom: 0;
+    margin-top: -80px;
+}
+
+.imgg {
+    height: 100%;
+    width: 100%;
+}
+
+.third-img:hover {
+    opacity: 0.7;
+}
+
+.third-text {
+    justify-content: center;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 30px;
+    height: 100%;
+}
+
+.fourthy-section {
+    background: linear-gradient(#A133F0, rgba(40, 198, 248));
+    padding-bottom:80çpx ;
+}
+
+.fourthy-img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.form {
+    background-color: rgba(253, 253, 253, 0.4);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.last-button {
+    background-color: #A032F0;
+    border: none;
+    padding: 10px;
+    width: 25%;
+}
+
+.last-button:hover {
+    background-color:  #3AB4F9;
+}
+
+footer {
+    background: linear-gradient(rgba(40, 198, 248), #A133F0);
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    padding: 10px;
+}
