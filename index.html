@@ -3,110 +3,124 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Outliers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/39e3608a27.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
 </head>
 
 <body>
-    <nav>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand principal">Outliers</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand main-title" href="#">Outliers</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" href="#first"><span>Home</span></a>
-                    <a class="nav-link" href="#beneficios"><span>Diferencial </span></a>
-                    <a class="nav-link" href="#conheca"><span>Conheça</span></a>
-                    <a class="nav-link" href="#contato"><span>Contato</span></a>
-                </div>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li><a class="nav-link active" href="#"><span>Home</span></a></li>
+                    <li><a class="nav-link" href="#beneficios"><span>Diferencial</span></a></li>
+                    <li><a class="nav-link" href="#conheca"><span>Conheça</span></a></li>
+                    <li><a class="nav-link" href="#contato"><span>Contato</span></a></li>
+                </ul>
             </div>
         </nav>
-    </nav>
+    </header>
 
-    <section class="first-section" id="first">
-        <div class="container-fluid">
-            <div class="title">
-                <h1 class="main-title">Um novo meio de buscar <br> uma pessoa para te <br><span
-                        style="color: #28C6F8;">entender</span></h1>
+    <main>
+        <section id="home" class="container-fluid first-section mb-5">
+            <div class="offset-lg-3 offset-md-2 col-lg-6 col-md-8 texto">
+                <h1 class="first-title">Um novo meio de buscar <br> uma pessoa para te <br><span class="entender">entender</span></h1>
+                <a href="#conheca"><button type="button" class="btn btn-primary mt-3 main-button">Saber mais</button></a>
             </div>
-            <a href="#conheca"><button type="button" class="btn btn-primary main-button">Saber mais</button></a>
+            <div class="opacidade">
+                <img src="first-img.png" class="img-fluid img" alt="Imagem responsiva com um paciente e uma psicologa atendendo">
+            </div>
+
+        </section>
+    </main>
+
+    <section class="container-fluid second-section" id="beneficios">
+        <h1 class="main-titles">Muito mais que um aplicativo</h1>
+        <div class="row justify-content-center">
+            <div class="card-deck">
+                <div class="card style-card col">
+                    <div class="card-header">
+                        <h5 class="card-title pb-3">Card title</h5>
+                    </div>
+                    <i class="fas fa-hand-holding-usd fa-7x card-img"></i>
+                    <div class="card-body">
+                        <p class="card-text pt-4">This is a wider card with supporting text below as a natural
+                            lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+                <div class="card style-card col">
+                    <div class="card-header">
+                        <h5 class="card-title pb-3">Card title</h5>
+                    </div>
+                    <i class="fas fa-globe fa-7x card-img"></i>
+                    <div class="card-body">
+                        <p class="card-text pt-4">This card has supporting text below as a natural lead-in to
+                            additional
+                            content.</p>
+                    </div>
+                </div>
+                <div class="card style-card col">
+                    <div class="card-header">
+                        <h5 class="card-title pb-3">Card title</h5>
+                    </div>
+                    <i class="fas fa-handshake fa-7x card-img"></i>
+                    <div class="card-body">
+                        <p class="card-text pt-4">This is a wider card with supporting text below as a natural
+                            lead-in to
+                            additional content. This card has even longer content than the first to show that
+                            equal
+                            height action.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="second-section" id="beneficios">
-        <h1 class="title-head">Muito mais que um aplicativo</h1>
-        <div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <div class="box-advantages">
-                            <h2 class="title-box">Barato</h2>
-                            <i class="fas fa-hand-holding-usd fa-7x"></i>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="box-advantages">
-                            <h2 class="title-box">Acessível</h2>
-                            <i class="fas fa-globe fa-7x"></i>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="box-advantages">
-                            <h2 class="title-box">Seguro</h2>
-                            <i class="fas fa-handshake fa-7x"></i>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        </div>
-                    </div>
-                </div>
+
+    <section id="conheca" class="container-fluid third-section">
+        <h1 class="main-titles">Quem Somos?</h1>
+        <article class="row justify-content-center">
+            <div class="imgg p-0 m-4 col-12 col-md-4">
+                <img class="third-img"
+                    src="https://images.pexels.com/photos/4225881/pexels-photo-4225881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Imagem responsiva de um psicologo atendendo a distância pelo computador">
             </div>
-        </div>
-    </section>
-    <section class="third-section" id="conheca">
-        <h1 class="title-head">Quem somos?</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img src="https://images.pexels.com/photos/4225881/pexels-photo-4225881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                        class="img-fluid" id="third-picture" alt="Responsive image">
-                </div>
-                <div class="col">
-                    <h2>Conheça o Outliers</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure porro laborum velit nostrum
-                        eligendi blanditiis exercitationem, natus nesciunt odio accusamus, iusto optio? Hic totam
-                        nesciunt corrupti esse earum sunt vero!
-                        <br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam obcaecati quae, odio alias,
-                        numquam asperiores dolores excepturi voluptatibus eligendi quidem hic odit exercitationem,
-                        laudantium aliquid voluptatem ducimus repellendus nemo praesentium.
-                        <br>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quia, placeat quae corrupti alias,
-                        error saepe vel totam magni beatae suscipit repudiandae tempora iusto id magnam eaque temporibus
-                        tenetur sapiente.
-                    </p>
-                </div>
+            <div class="col-12 col-md-6">
+                <h2 class="text-center">Conheça o Outliers</h2>
+                <p class="third-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, neque labore delectus voluptate
+                    odio
+                    consequuntur non officia veritatis provident aliquid esse reiciendis quis architecto saepe fugit ad
+                    harum similique officiis!
+                <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolorum fugit pariatur labore ad, itaque soluta. Consectetur commodi error dolore tempora ipsam minima! Sunt fuga sed dolores maiores reiciendis nulla.
+                <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur magni placeat consectetur minus voluptates exercitationem beatae, atque nobis vitae, sint cumque perspiciatis animi earum nihil nulla dolorem blanditiis eaque totam.</p>
             </div>
-        </div>
+        </article>
     </section>
-    <section class="fourthy-section" id="contato">
-        <h1 class="title-head">Mantenha-se informado sobre o serviço!</h1>
-        <div class="container">
-            <div class="row">
-              <div class="col">
-                <img src="woman-visiting-psychologist_74855-4824-removebg-preview.png" class="img-fluid last-image" alt="Responsive image">
-              </div>
-              <div class="col">
-                <form class="form-last">
+
+    <section id="contato" class="container-fluid fourthy-section">
+        <h1 class="main-titles">Mantenha-se informado sobre o serviço!</h1>
+        <article class="row justify-content-center">
+            <div class="col-12 col-md-4">
+                <img class="fourthy-img" src="woman-visiting-psychologist_74855-4824-removebg-preview.png" alt="Imagem responsiva de um consultório">
+            </div>
+            <div class="col-12 col-md-6">
+                <form class="form">
                     <div class="form-group">
                         <label for="name">Nome Completo:</label>
                         <input type="text" class="form-control" id="name" placeholder="Maria da Silva" required>
@@ -129,13 +143,13 @@
                       </div>
                     <button type="submit" class="btn btn-primary last-button">Enviar</button>
                   </form>
-              </div>
             </div>
+        </article>
     </section>
-    <footer>
+
+    <footer >
         <p>Copyright © Outliers - 2020</p> 
     </footer>
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

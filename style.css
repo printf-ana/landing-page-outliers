@@ -1,161 +1,157 @@
-body {
-    font-family: Montserrat, sans-serif;
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
 }
 
-nav {
-    position: fixed;
-    width: 100%;
+nav { 
     background-color: #3AB4F9;
 }
 
-nav .principal {
-    font-size: 28px;
+nav .main-title {
+    font-weight: bold;
+    font-size: 1.8rem;
 }
 
-nav a span{
-    color: rgba(255, 255, 255, 0.904);
-    font-weight: 100;
+nav a span {
+    color: white;
 }
+
 
 nav a span:hover {
     font-size: 17px;
     font-weight: bold;
 }
 
-.container-fluid {
-    text-align: center;
-    font-family: Montserrat, sans-serif;
+main {
+    padding-top: 60px;
+    width: 100%;
 }
-  
-.container-fluid:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
+
+.first-section {
+    height: 100%;
+}
+
+.img {
+    object-fit: cover;
     width: 100%;
     height: 100%;
-    opacity: 0.5;
-    z-index: -1;
-    background: url('3872887.png.png') center center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-  }
-
-.title {
-    padding-top: 90px;    
+    z-index: 1;
 }
 
-.main-title {
-    vertical-align: center;
-    padding: 20px;
+.opacidade {
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.texto {
+    z-index: 3;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    font-size: 1rem;
+}
+
+.entender {
+    color: #3AB4F9;
 }
 
 .main-button {
     background-color: #3AB4F9;
     font-weight: bold;
     border: none;
-    width: 15%;
-    padding: 6px;
+    padding: 10px;
     transition: 1s all;
 }
 
-.main-button:hover {
-    background-color: #A032F0;
+.main-titles {
+    text-align: center;
+    padding: 50px 0;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .second-section {
-    text-align: center;
-    background: linear-gradient(white,rgba(40, 198, 248, 0.8));
+    width: 100%;
+    padding-top: 100px;
+    background: linear-gradient(white, rgba(40, 198, 248, 0.8));
 }
 
-.title-head {
-    text-transform: uppercase;  
+.style-card {
+    border: none;
     text-align: center;
-    padding: 50px 0; 
-}
-
-.box-advantages {
-    background-color: rgba(160, 50, 240, 0);
-    border-radius: 6px;
-    padding: 10px;
     transition: 0.8s all;
+    background-color: transparent;
 }
 
-.box-advantages:hover {
+.style-card:hover {
     background-color: rgba(160, 50, 240, 0.2);
 }
 
-.box-advantages:hover h2 {
-    font-size: 34px;
+.card-header {
+    background-color:transparent;
+    border: none;
 }
 
-.title-box {
-    padding: 20px 0;
-    font-size: 30px;
+.card-title {
     text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.6rem;
 }
 
-.second-section .box-advantages p {
-    font-size: 18px;
-}
-
-.second-section i {
+.card-img {
     color: white;
-    padding: 20px;
 }
 
-.second-section p {
-    font-size: 18px;
-    padding: 20px;
+.card-text {
     text-transform: uppercase;
-}
-
-.second-section {
-    margin-top: 300px;
-    text-align: center;
-    background: linear-gradient(white, rgba(40, 198, 248, 0.8));
+    font-size: 1rem;
 }
 
 .third-section {
     background: linear-gradient(rgba(40, 198, 248, 0.8),  white, #A032F0);  
 }
 
-#third-picture {
-    height: 45%;
+.third-img {
+    height: 70%;
     width: 100%;
-    clip-path: circle(50% at 50% 50%);
     object-fit: cover;
+    clip-path: circle(50% at 50% 50%);
     opacity: 0.8;
+    margin-bottom: 0;
+    margin-top: -80px;
 }
 
-#third-picture:hover {
+.imgg {
+    height: 100%;
+    width: 100%;
+}
+
+.third-img:hover {
     opacity: 0.7;
 }
 
-.third-section h2 {
-    text-align: left;
-    padding-bottom: 10px;
-}
-
-.third-section p {
-    line-height: 1.8;
+.third-text {
+    justify-content: center;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 30px;
+    height: 100%;
 }
 
 .fourthy-section {
-    background: linear-gradient(#DCB3FA, rgba(40, 198, 248));
-    margin-top: -300px;
-    padding-bottom: 50px;
+    background: linear-gradient(#A133F0, rgba(40, 198, 248));
+    padding-bottom:80çpx ;
 }
 
-.last-image {
-    padding-top: 50px;
-    vertical-align: center;
+.fourthy-img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
 }
 
-.form-last {
+.form {
     background-color: rgba(253, 253, 253, 0.4);
     padding: 20px;
     border-radius: 5px;
@@ -172,9 +168,10 @@ nav a span:hover {
     background-color:  #3AB4F9;
 }
 
-footer  {
-    background: linear-gradient(rgba(40, 198, 248), #3AB4F9);
+footer {
+    background: linear-gradient(rgba(40, 198, 248), #A133F0);
     text-align: center;
     font-style: italic;
     font-size: 14px;
+    padding: 10px;
 }
