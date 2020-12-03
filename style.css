@@ -89,6 +89,10 @@ main {
     background-color: rgba(160, 50, 240, 0.2);
 }
 
+.style-card:hover h5 {
+    font-size: 34px;
+}
+
 .card-header {
     background-color:transparent;
     border: none;
